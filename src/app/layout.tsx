@@ -17,6 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
+          <h1>app/layout.tsx</h1>
           {children}
         </Providers>
       </body>
