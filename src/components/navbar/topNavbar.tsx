@@ -19,8 +19,8 @@ export default function TopNav() {
                 <NavbarItem as={Link} href='/lists'>Lists</NavbarItem>
                 <NavbarItem as={Link} href='/messages'>Messages</NavbarItem>
             <NavbarContent justify="end">
-                <Button variant="bordered" className="text-white">Login</Button>
-                <Button variant="bordered" className="text-white">Register</Button>
+                <Button variant="bordered" as={Link} href='/login' className="text-white">Login</Button>
+                <Button variant="bordered" as={Link} href='/register' className="text-white">Register</Button>
             </NavbarContent>
         </Navbar>
     );
