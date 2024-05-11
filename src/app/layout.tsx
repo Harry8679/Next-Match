@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Providers from "@/components/Providers";
+import TopNav from "@/components/navbar/topNavbar";
 
 export const metadata: Metadata = {
   title: "Next Match",
@@ -17,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
-          <h1>app/layout.tsx</h1>
+          <TopNav />
           {children}
         </Providers>
       </body>
